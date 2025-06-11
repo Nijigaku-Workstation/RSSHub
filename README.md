@@ -15,7 +15,7 @@
 [![Telegram group](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Frsshub&query=count&color=2CA5E0&label=Telegram%20Group&logo=telegram&cacheSeconds=3600&style=flat-square)](https://t.me/rsshub) [![Telegram channel](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2FawesomeRSSHub&query=count&color=2CA5E0&label=Telegram%20Channel&logo=telegram&cacheSeconds=3600&style=flat-square)](https://t.me/awesomeRSSHub) [![X (Twitter)](https://img.shields.io/badge/any_text-Follow-blue?color=2CA5E0&label=Twitter&logo=X&cacheSeconds=3600&style=flat-square)](https://x.com/intent/follow?screen_name=_RSSHub)
 
 ## 关于部署细节
-先根据[![官方部署方法](https://docs.rsshub.app/zh/deploy/)部署在服务器上
+先根据[官方部署方法](https://docs.rsshub.app/zh/deploy/)部署在服务器上
 然后需要在根目录下配置.env文件
 ```
 PORT = 14607 #配置rsshub的服务端口
@@ -28,7 +28,7 @@ TWITTER_AUTH_TOKEN = 04c456xxxxxxxxx…… #打开浏览器f12，获取推特小
 ```
 
 以下是一些看情况配置的参数
-[![推特路由参数](https://docs.rsshub.app/zh/routes/social-media#x-twitter)
+[推特路由参数](https://docs.rsshub.app/zh/routes/social-media#x-twitter)
 目前bot使用的是
 showQuotedAuthorAvatarInDesc=1&showAuthorInDesc=1&showAuthorAvatarInDesc=1
 意思是在<description>中显示用户头像和被转推的用户头像
